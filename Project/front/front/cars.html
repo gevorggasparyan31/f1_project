@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "index.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <div class="pageContent">
+                <div class="header">
+                        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/2560px-F1.svg.png">
+                    <div class="buttons">
+                        
+                        <a class ="links" href="index.html"><button class="fixedCarsButtons">Home</button></a>
+                        <button class="fixedCarsButtons" onclick = "showDrivers()">All Drivers</button>
+                        <button class="fixedCarsButtons" onclick = "searchBar()">Find By Driver</button>
+                        <input type = "text" placeholder="Driver's Name" class="searchInput" id = "input"/>
+                        <button class="fixedCarsButtons" onclick = "searchTeam()">Find By Team</button>
+                        <input type = "text" placeholder="Team Name" class="searchInput" id = "inputTeam"/>
+                    </div>
+                </div>
+                <div class="content" id = "content">
+                </div>
+                <a href="#" class="top"><img class="arrow" src="fb2357ae728031f73d3586dd7edd4007.png"></a>
+            </div>
+        </div>
+        <script type = "module" src="index.js"></script>
+    </body>
+</html>

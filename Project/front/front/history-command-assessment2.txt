@@ -1,0 +1,17 @@
+ 1535  scp -r student@3.14.1.89:assets.zip ~/
+ 1536  ls
+ 1537  unzip assets.zip 
+ 2110  sudo apt install nginx
+ 2111  sudo systemctl start nginx
+ 2112  ls
+ 2113  cd ..
+ 2114  sudo tar -czf assessment2_gevorg.tar.gz assessment2_gevorg/
+ 2115  sudo cp assessment-1.tar.gz /var/www/html/
+ 2116  cd /var/www/html/
+ 2117  sudo tar -xzf assessment2_gevorg.tar.gz 
+ 2118  vim /etc/hosts
+ 2119  chmod u+w /etc/hosts
+ 2120  sudo chmod u+w /etc/hosts
+ 2121  vim /etc/hosts
+ 2122  sudo vim /etc/hosts
+ 2123  sudo systemctl restart nginx
